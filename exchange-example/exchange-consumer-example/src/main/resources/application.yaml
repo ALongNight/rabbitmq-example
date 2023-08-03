@@ -1,0 +1,15 @@
+logging:
+  pattern:
+    dateformat: MM-dd HH:mm:ss
+  level:
+    com.example: debug
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    listener:
+      simple:
+        prefetch: 1   #一次取一条消息

@@ -4,18 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.lnight</groupId>
+    <groupId>com.lnight.mq</groupId>
     <artifactId>rabbitmq-example</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>simple-queue</module>
-        <module>worker-queue-example</module>
         <module>message-converter</module>
         <module>reliable-delivery-example</module>
-        <module>direct-queue-example</module>
-        <module>topic-queue-example</module>
-        <module>fanout-queue-example</module>
+        <module>deadLetter-queue-example</module>
+        <module>exchange-example</module>
+        <module>queue-example</module>
     </modules>
 
     <properties>
